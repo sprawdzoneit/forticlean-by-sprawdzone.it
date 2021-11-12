@@ -1,5 +1,5 @@
-FortiClean by sprawdzone.it
-version: 1.0
+FortiClean v1.0 by sprawdzone.it
+
 ------------------------------------------------
 
 The script allows you to deactivate FortiClient EMS, so you can manually start/stop this application - even when ems administrator has blocked functions in the application.
