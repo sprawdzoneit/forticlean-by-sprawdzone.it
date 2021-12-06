@@ -49,12 +49,12 @@ echo taskkill /im fortiesnac.exe /F >> forti_stop.bat
 echo taskkill /im fortifws.exe /F >> forti_stop.bat
 echo taskkill /im fortiproxy.exe /F >> forti_stop.bat
 echo taskkill /im fortiwf.exe /F >> forti_stop.bat
-echo taskkill /im scheduler.exe /T /F >> froti_stop.bat
 echo taskkill /im fcappdb.exe /F >> forti_stop.bat
 echo taskkill /im fcaptmon.exe /F >> forti_stop.bat
 echo taskkill /im fcdblog.exe /F >> forti_stop.bat
 echo taskkill /im fortitcs.exe /F >> forti_stop.bat
 echo taskkill /im fssoma.exe /F >> forti_stop.bat
+echo taskkill /im scheduler.exe /T /F >> froti_stop.bat
 xcopy /y "C:\scripttemp\forti_stop.bat" "%userprofile%\desktop\*"
 
 :: uruchomienie utworzonego skryptu w trybie awaryjnym
