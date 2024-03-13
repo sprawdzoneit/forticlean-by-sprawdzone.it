@@ -29,3 +29,7 @@ two BAT commands will be visible on the desktop (the commands must also be perfo
 
 INFORMATION:
 verified on version: FortiClientSetup_7.0.1_x64
+
+
+UPDATE 2024-03-11:
+verified on version: FortiClientSetup_7.2.4_x64
