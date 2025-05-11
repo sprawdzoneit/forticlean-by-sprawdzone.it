@@ -29,6 +29,7 @@ echo sc config FortiShield start= demand >> clean.bat
 echo sc config fortisniff start= demand >> clean.bat
 echo sc config FortiTransCtrl start= demand >> clean.bat
 echo sc config FortiWF start= demand >> clean.bat
+echo sc config FCT_SecSvr start= demand >> clean.bat
 echo reg ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce /v "!clean" /t REG_SZ /d "C:\Windows\system32\cmd.exe /c rd /s /q C:\scripttemp" /f >> clean.bat
 echo shutdown /r /f /t 00 >> clean.bat
 
@@ -54,6 +55,7 @@ echo taskkill /im fcaptmon.exe /F >> forti_stop.bat
 echo taskkill /im fcdblog.exe /F >> forti_stop.bat
 echo taskkill /im fortitcs.exe /F >> forti_stop.bat
 echo taskkill /im fssoma.exe /F >> forti_stop.bat
+echo taskkill /im Fct_SecSvr.exe /F >> forti_stop.bat
 echo taskkill /im scheduler.exe /T /F >> froti_stop.bat
 xcopy /y "C:\scripttemp\forti_stop.bat" "%userprofile%\desktop\*"
 
